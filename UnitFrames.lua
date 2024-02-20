@@ -930,6 +930,11 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 				desc = L["Offset of the powerbar to the healthbar, set to 0 to disable."],
 				min = 0, max = 20, step = 1
 			},
+			powerPrediction = {
+				order = 11,
+				type = "toggle",
+				name = L["Power Prediction"]
+			},
 			configureButton = {
 				order = 6,
 				type = "execute",
